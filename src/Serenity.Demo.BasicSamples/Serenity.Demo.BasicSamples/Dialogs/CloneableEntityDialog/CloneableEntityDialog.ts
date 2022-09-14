@@ -28,10 +28,10 @@
             // otherwise we would have to create a temporary copy of it
             // and upload
             clone.ProductImage = null;
-
+            clone.Supplier = "Exotic Liquids";
             // let's clear fields not logical to be cloned
-            clone.UnitsInStock = 0;
-            clone.UnitsOnOrder = 0;
+            clone.UnitsInStock = 10;
+            clone.UnitsOnOrder = 20;
             return clone;
         }
     }
